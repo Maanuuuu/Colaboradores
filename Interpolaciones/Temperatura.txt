@@ -1,0 +1,9 @@
+Temperatura de diciembre de Tokyo: desde 23 al 29
+Fecha: Alta/Baja_Temperatura
+   23: 11/6
+   24: 12/7
+   25: 12/6
+   26: 11/6
+   27: 12/6
+   28: 11/5
+   29: 13/6
