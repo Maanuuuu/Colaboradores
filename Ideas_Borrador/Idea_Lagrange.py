@@ -22,6 +22,7 @@ for i in range (len(promedio_T)):
     j += 1
 
 #Validacion de proceso:
+#Validacion para ver que si la cantidad de datos que son iguales"
 def Cantidad_dias (x,y):
     xx = len(x)
     yy = len(y)
@@ -45,7 +46,7 @@ for i in range (dias):
     ypp += promedio_T[i] * acum_p
 
 #Grafica
-plt.plot(dias_lista, promedio_T, 'o', label="La semana de Temperatura")
-plt.plot(xpp,ypp,label="El resultado por Interpolacion de Lagrange")
+plt.plot(dias_lista, promedio_T, 'o', label="La semana de Temperatura") #Ubicar los puntos sobre el dia y su correspondiente temperatura
+plt.plot(xpp,ypp,label="El resultado por Interpolacion de Lagrange") #Graficar el vector
 plt.legend()
 plt.show()
