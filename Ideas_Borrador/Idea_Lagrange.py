@@ -20,3 +20,32 @@ j = 1
 for i in range (len(promedio_T)):
     dias_lista[i] = j
     j += 1
+
+#Validacion de proceso:
+def Cantidad_dias (x,y):
+    xx = len(x)
+    yy = len(y)
+    if xx != yy:
+        return False
+    else:
+        return True
+
+#Procedimiento para el Interpolacion de Lagrange:
+
+#Sacar el valor el vector "X":
+xpp = np.linspace(min(dias_lista), max(dias_lista), 100)
+
+#Sacar el valor el vector "Y":
+ypp = 0
+for i in range (dias):
+    acum_p = 1 #Para acumular el valor de y
+    for j in range (dias):
+        if i!= j:
+            acum_p *= (xpp-dias_lista[j])/(dias_lista[i]-dias_lista[j])
+    ypp += promedio_T[i] * acum_p
+
+#Grafica
+plt.plot(dias_lista, promedio_T, 'o', label="La semana de Temperatura")
+plt.plot(xpp,ypp,label="El resultado por Interpolacion de Lagrange")
+plt.legend()
+plt.show()
