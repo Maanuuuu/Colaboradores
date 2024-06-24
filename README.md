@@ -1,4 +1,4 @@
-# **Práctica de Julia en repositorio de Colaboradores**
+# **Práctica en repositorio de Colaboradores**
 ## Sección: 305C1
 
 * Manuel Nava 30.822.007 @Maanuuuu
