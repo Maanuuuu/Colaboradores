@@ -4,5 +4,6 @@
 * Manuel Nava 30.822.007 @Maanuuuu
 * Juan Wu 30.391.117 @juanww20
 * José Farrauto 30.696.288 @farreto06
-
+<p align="center">
 <center><img src="calculo_numerico.png"></center>
+</p>
