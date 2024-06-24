@@ -3,4 +3,4 @@
 
 * Manuel Nava 30.822.007 @Maanuuuu
 * Juan Wu 30.391.117 @juanww20
-* Enrique Gonzalez 31.456.312 @Enriquegonzalezz
+* Enrique Gonzalez 31.456.812 @Enriquegonzalezz
